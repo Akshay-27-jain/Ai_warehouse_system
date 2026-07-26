@@ -1,0 +1,63 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.crt
+*.pfx
+id_rsa
+id_dsa
+service-account.json
+firebase-admin.json
+credentials.json
+client_secret.json
+gcp_client_secret.json
+secrets.*
+config/secrets.*
+terraform.tfvars
+services/api/scripts/client_secret.json
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+services/api/instance/
+
+# Dependencies & Build Output
+node_modules/
+dist/
+build/
+coverage/
+apps/web/dist/
+services/api/dist/
+.pnpm-store/
+
+# Python
+__pycache__/
+*.pyc
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+.venv/
+venv/
+.pytest_cache/
+
+# IDE & OS
+.vscode/
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+api-server.err.log
+api-server.out.log
+vite-dev.err.log
+vite-dev.out.log
+services/api/logs/

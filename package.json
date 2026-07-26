@@ -1,0 +1,25 @@
+{
+  "name": "ai-warehouse-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-powered Warehouse Management System",
+  "author": "Akshay Jain",
+  "license": "MIT",
+  "scripts": {
+    "install:web": "npm --prefix apps/web install",
+
+    "dev": "npm --prefix apps/web run dev",
+
+    "build": "npm --prefix apps/web run build",
+
+    "preview": "npm --prefix apps/web run preview",
+
+    "lint": "npm --prefix apps/web run lint",
+
+    "format": "npm --prefix apps/web run format",
+
+    "test": "npm --prefix apps/web run test",
+
+    "clean": "npm --prefix apps/web run clean"
+  }
+}
