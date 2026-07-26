@@ -20,7 +20,7 @@
     "framer-motion": "^12.23.12",
     "lucide-react": "^0.542.0",
     "react": "^19.2.7",
-    "react-dom": "^19.2.7",
+    "react-dom": "^19.2.8",
     "react-router-dom": "^7.18.1",
     "react-hot-toast": "^2.5.2",
     "tailwindcss": "^4.3.2"
