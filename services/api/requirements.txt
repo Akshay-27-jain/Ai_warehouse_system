@@ -10,7 +10,7 @@ flask-socketio==5.6.1
 flask-migrate==4.1.0
 python-dotenv==1.2.2
 psycopg2-binary==2.9.12
-sqlalchemy==2.0.51
+sqlalchemy==2.0.52
 bcrypt==5.0.0
 pytest==9.1.1
 marshmallow==4.3.0
